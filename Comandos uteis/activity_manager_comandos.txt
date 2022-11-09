@@ -1,0 +1,5 @@
+# Realizar uma ação
+
+command 1 (abrir site): ./adb shell am start -a android.intent.action.View https://desecsecurity.com
+
+command 2 (abrir google maps): ./adb shell am start -a android.intent.action.View get:0,0?1=Google

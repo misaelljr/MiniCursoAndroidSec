@@ -1,0 +1,10 @@
+# Listar avds disponíveis
+
+path: /Android/sdk/tools/bin
+comand: emulator -list-avds
+
+# Executar avd via linha de comando
+
+path: /Android/sdk/tools/
+comand: /Android/Sdk/emulator/emulator @Pixel ou /Android/Sdk/emulator/emulator -avd @Pixel
+

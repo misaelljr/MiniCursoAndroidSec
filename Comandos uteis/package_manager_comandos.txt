@@ -1,0 +1,23 @@
+# Listar usuários
+
+command: ./adb shell pm list users
+
+# Listar todos os pacotes
+
+command: ./adb shell pm list packages
+
+# Listar todos os pacotes de sistema
+
+command: ./adb shell pm list packages -s
+
+# Listar todos os pacotes de terceiros
+
+command: ./adb shell pm list packages -3
+
+# Mostrar o caminho do apk
+
+command: ./adb shell pm path package_name
+
+# Desinstalar o pacote
+
+command: ./adb shell pm uninstrall package_name

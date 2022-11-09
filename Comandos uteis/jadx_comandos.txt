@@ -1,0 +1,7 @@
+# Gerar arquivos .java do app - Versão Terminal
+
+/Users/misaeljr/Downloads/desec-tools/jadx/bin/jadx /Users/misaeljr/Downloads/desec-tools/apps/VulnApp.apk -d vulApp_path
+
+# Gerar arquivos .java do app - Versão Interface Gráfica
+
+jadx VulnApp.apk -d vulApp_path

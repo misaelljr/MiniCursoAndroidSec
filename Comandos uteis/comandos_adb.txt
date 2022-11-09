@@ -1,0 +1,62 @@
+path de instalação do adb: /Android/sdk/platform-tools
+
+# Verificar dispositivos disponível
+
+path: /Android/sdk/platform-tools
+comand: ./adb devices
+
+# Entrar no emulador
+
+path: /Android/sdk/platform-tools
+comand: ./adb shell
+
+# Escolher dispositivo para entrar, caso tenha mais de um conectado:
+
+comand: ./adb -s num_device shell
+comand conectar no emulador: ./adb -e shell
+comand conectar no dispositivo fisico: ./adb -d shell
+
+# Listar diretórios no device
+
+comand 1: ./adb shell
+comand 2: ls -la
+
+- app/ - todos os apps instalados no device
+- system/app - aplicativos nativos
+- ps - tudo que está rodando
+- ls | grep "termo do app" - descobrir o caminho do app
+
+# Remover padrão de bloqueio do dispositivo
+
+comando 1: ./adb shell
+comando 2: cd /data/system/
+comando 3: rm gesture.key
+
+# Enviar arquivo para qualquer diretório do dispositivo
+
+comand: ./adb push teste.txt /data/local/tmp
+
+# Baixar arquivo do dispositivo e salvar localmente
+
+comand: ./adb pull /data/local/tmp/teste.txt 
+
+# Instalar app
+
+./adb install /path_app/app.apk
+
+# Desinstalar app
+
+./adb uninstall /path_app/app.apk
+
+# Acessar um componente especifico do app
+
+./adb shell am start path_Activity
+
+# Matar e ligar servidor do adb
+
+comand 1: ./adb kill-server
+comand 2: ./adb start-server
+
+# Dica - Verificar se o usuário é root ou comum
+
+se vier com # então tem acesso root
