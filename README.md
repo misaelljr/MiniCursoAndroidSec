@@ -2,7 +2,7 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 
-<p align="left">🚀 Este repositório contém o material utilizado no mini-curso "Desenvolvedor, cuidado! O seu aplicativo pode estar vulnerável" que ocorreu no dia 09/11/22 às 18:45. O mini-curso foi realizado em parceria com o O Centro Universitário de Viçosa (Univiçosa) para a Semana Acadêmica dos cursos Engenharia de Computação e Tecnologia ADS.</p
+<p align="left">🚀 Este repositório contém o material utilizado no mini-curso "Desenvolvedor, cuidado! O seu aplicativo pode estar vulnerável" que ocorreu no dia 09/11/22 às 18:45. O mini-curso foi realizado em parceria com o O Centro Universitário de Viçosa (Univiçosa) para a Semana Acadêmica dos cursos Engenharia de Computação e Tecnologia ADS. </p
 
 ### Pré-requisitos
 
